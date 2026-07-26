@@ -1,0 +1,17 @@
+# Requirements for ECAM
+
+# NLP & Vision models
+transformers==4.57.3
+safetensors==0.7.0
+
+# Data processing & Metrics
+pandas==2.3.3
+numpy==2.3.5
+scikit-learn==1.8.0
+
+# Utilities
+tqdm==4.67.1
+
+# Note: PyTorch is required but NOT included in this list to avoid CUDA driver conflicts.
+# Please install PyTorch manually according to your hardware setup (e.g., CUDA version)
+# from https://pytorch.org/get-started/locally/
